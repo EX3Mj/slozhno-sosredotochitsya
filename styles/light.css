@@ -11,9 +11,9 @@
   --title-color: #FFC2E6;
   --title-shadow-color: #FF8DCB;
   --title-shadow-color-desktop: #FF0070;
+  --button-color: #353430;
   --subtitle-color: #353430;
   --text-content-title: #353430;
-  --main-font: 'IBM Plex mono', monospace;
   --visible: visible;
   --background-image: url(../images/cover-image-light.png);
 }
@@ -29,9 +29,9 @@
   --title-color: #FFC2E6;
   --title-shadow-color: #FF8DCB;
   --title-shadow-color-desktop: #FF0070;
+  --button-color: #353430;
   --subtitle-color: #353430;
   --text-content-title: #353430;
-  --main-font: 'IBM Plex mono', monospace;
   --visible: hidden;
   --background-image: url(../images/cover-image-light.png);
 }
@@ -44,9 +44,9 @@
     --title-color: #FFC2E6;
     --title-shadow-color: #FF8DCB;
     --title-shadow-color-desktop: #FF0070;
+    --button-color: #353430;
     --subtitle-color: #353430;
     --text-content-title: #353430;
-    --main-font: 'IBM Plex mono', monospace;
     --visible: hidden;
     --background-image: url(../images/cover-image-light.png);
   }

@@ -46,20 +46,17 @@
         </ul>
       </nav>
       <h1 class="header__title">no focus</h1>
-      <article class="header__article">
-        <p class="title-decor">
-          Что делать, когда не можешь делать ничего<br />
-          Или почему нам так сложно сконцентрироваться, особенно когда очень
-          надо
-        </p>
-      </article>
+      <p class="header__article title-decor">
+        Что делать, когда не можешь делать ничего<br />
+        Или почему нам так сложно сконцентрироваться, особенно когда очень надо
+      </p>
       <div class="header__rec-block" aria-hidden="true">REC</div>
     </header>
     <main class="content">
       <section class="text-content">
         <h2 class="text-content__title">Почему сосредоточиться так сложно</h2>
         <ul class="text-content__answer">
-          <li class="text-content__answer__card">
+          <li class="text-content__answer-card">
             <h3 class="title-decor">Многозадачность</h3>
             <p class="text-content__text">
               Особенно сложно сосредоточиться, когда задач много и все они —
@@ -67,6 +64,7 @@
               вам (и всем нанимающим менеджерам этого мира)? А дело в том, что
               её просто не существует. Исследователи
               <a
+                class="text-content__link"
                 href="https://dana.org/article/multicosts-of-multitasking/"
                 target="_blank"
               >
@@ -78,7 +76,7 @@
               ошибаемся и быстро устаём.
             </p>
           </li>
-          <li class="text-content__answer__card">
+          <li class="text-content__answer-card">
             <h3 class="title-decor">Дофамин</h3>
             <p class="text-content__text">
               С гормонами стресса всё понятно, но дальше — ещё интереснее. В
@@ -96,7 +94,7 @@
       <section class="text-content">
         <h2 class="text-content__title">Что снижает концентрацию внимания?</h2>
         <ul class="text-content__answer answer-row">
-          <li class="text-content__answer__card">
+          <li class="text-content__answer-card">
             <h3 class="title-decor">Многозадачность</h3>
             <p class="text-content__text">
               Как концентрация может снижаться из-за… концентрации? Любая
@@ -107,7 +105,7 @@
               может не выдержать, если не давать ей отдохнуть.
             </p>
           </li>
-          <li class="text-content__answer__card">
+          <li class="text-content__answer-card">
             <h3 class="title-decor">Еда</h3>
             <p class="text-content__text">
               «Быстрые углеводы» — сахар, белый хлеб, сладости — молниеносно
@@ -118,7 +116,7 @@
               хотим ещё больше быстрых углеводов.
             </p>
           </li>
-          <li class="text-content__answer__card">
+          <li class="text-content__answer-card">
             <h3 class="title-decor">Гаджеты</h3>
             <p class="text-content__text">
               Да-да, это та самая ситуация, когда на экране ноутбука — код, в
@@ -137,13 +135,9 @@
           Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх
           секунд)
         </h2>
-        <ul class="text-content__answer">
-          <li class="text-content__answer__card">
-            <h3 class="title-decor">
-              5 простых (на самом деле не очень) советов
-            </h3>
-          </li>
-          <li class="text-content__answer__card">
+        <h3 class="title-decor">5 простых (на самом деле не очень) советов</h3>
+        <ul class="text-content__answer-recommendation">
+          <li class="text-content__answer-card">
             <h4 class="title-decor">Представьте небо и облака</h4>
             <p class="text-content__text">
               Или листья в ручье. Тут дело в лёгкой медитации, которая помогает
@@ -156,7 +150,7 @@
               проблемах из будущего.
             </p>
           </li>
-          <li class="text-content__answer__card">
+          <li class="text-content__answer-card">
             <h4 class="title-decor">Включите музыку</h4>
             <p class="text-content__text">
               Но не любую, и не любимую. Любимая может быть связана с сильными
@@ -165,11 +159,12 @@
               попробовать включить плейлист в «белым шумом» или нейромузыкой.
             </p>
           </li>
-          <li class="text-content__answer__card">
+          <li class="text-content__answer-card">
             <h4 class="title-decor">Прогуляйтесь</h4>
             <p class="text-content__text">
               Или даже пробегитесь. Лучше найти парк или лес: один эксперимент
               <a
+                class="text-content__link"
                 href="https://www.sciencedirect.com/science/article/abs/pii/S0272494415000328"
                 >показал</a
               >, что созерцание природы повышает концентрацию, в то время как
@@ -179,7 +174,7 @@
               простая двадцатиминутная прогулка — тоже отличный вариант.
             </p>
           </li>
-          <li class="text-content__answer__card">
+          <li class="text-content__answer-card">
             <h4 class="title-decor">Хорошо ешьте</h4>
             <p class="text-content__text">
               Мы — не ваша бабушка, но это правда важно. Выбирайте продукты,
@@ -188,7 +183,7 @@
               чечевица, фасоль), коричневый рис, хлеб из цельнозерновой пшеницы.
             </p>
           </li>
-          <li class="text-content__answer__card">
+          <li class="text-content__answer-card">
             <h4 class="title-decor">Читайте</h4>
             <p class="text-content__text">
               Настоящие бумажные книги. Это правда помогает с концентрацией:
@@ -200,22 +195,47 @@
         </ul>
       </section>
       <section class="galery">
-        <h3 class="title-decor">А можно в картинках?</h3>
-        <ul class="galery__items">
-          <li class="galery__items-picture">
-            <img src="./images/sunset.png" alt="Закат в горах" loading="lazy" />
+        <h2 class="title-decor">А можно в картинках?</h2>
+        <ul class="galery__album">
+          <li class="galery__album-items">
+            <img
+              class="galery__album-pictures"
+              src="./images/sunset.png"
+              alt="Закат в горах"
+              loading="lazy"
+            />
           </li>
-          <li class="galery__items-picture">
-            <img src="./images/ice-cream.png" alt="Мороженое" loading="lazy" />
+          <li class="galery__album-items">
+            <img
+              class="galery__album-pictures"
+              src="./images/ice-cream.png"
+              alt="Мороженое"
+              loading="lazy"
+            />
           </li>
-          <li class="galery__items-picture">
-            <img src="./images/tape.png" alt="Аудиокассета" loading="lazy" />
+          <li class="galery__album-items">
+            <img
+              class="galery__album-pictures"
+              src="./images/tape.png"
+              alt="Аудиокассета"
+              loading="lazy"
+            />
           </li>
-          <li class="galery__items-picture">
-            <img src="./images/books.png" alt="Книги" loading="lazy" />
+          <li class="galery__album-items">
+            <img
+              class="galery__album-pictures"
+              src="./images/books.png"
+              alt="Книги"
+              loading="lazy"
+            />
           </li>
-          <li class="galery__items-picture">
-            <img src="./images/street.png" alt="Городская улица" loading="lazy" />
+          <li class="galery__album-items">
+            <img
+              class="galery__album-pictures"
+              src="./images/street.png"
+              alt="Городская улица"
+              loading="lazy"
+            />
           </li>
         </ul>
       </section>
